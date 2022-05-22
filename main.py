@@ -36,7 +36,6 @@ def create_window():
 
     tk.label = tk.Label(tk.window, text="Python Screen Recorder", font=("Helvetica", 16), fg="white", bg="black")
     tk.label.pack()
-    #add a input field for just numbers and make that the fps value
     tk.fps_label = tk.Label(tk.window, text="Speed:", font=("Helvetica", 12), fg="white", bg="black")
     tk.fps_label.pack()
     tk.fps_input = tk.Entry(tk.window, width=5, font=("Helvetica", 12), fg="white", bg="black")
